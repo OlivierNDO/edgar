@@ -168,6 +168,8 @@ urls_10q, urls_8k, urls_10k = edgar_mtch.get_10k_8k_urls()
     
 
 
+
+
 url = 'https://www.sec.gov/Archives/edgar/data/0000320193/000032019321000056/aapl-20210327.htm'
 form_xpath = '//div[(((count(preceding-sibling::*) + 1) = 9) and parent::*)]//span'
 
